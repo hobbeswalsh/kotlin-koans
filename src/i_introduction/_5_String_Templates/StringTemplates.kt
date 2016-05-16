@@ -35,4 +35,8 @@ fun todoTask5(): Nothing = TODO(
     documentation = doc5(),
     references = { getPattern(); month })
 
-fun task5(): String = todoTask5()
+fun task5(): String {
+    val dateRegex = """\d{2} $month \d{4}"""
+    return dateRegex
+
+}
